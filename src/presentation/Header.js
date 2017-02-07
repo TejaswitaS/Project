@@ -17,7 +17,7 @@ export default class Header extends React.Component {
 							<li><a href="#">Places</a></li>
 							<li className="search-container">
 								<input className="search-input" type="text" name="search" placeholder="Search.."></input>
-								<img src='src/assets/search.jpeg' className="search-image"/>
+								<img src='src/assets/search.png' className="search-image"/>
 							</li>
 						</ul>
 					</div>

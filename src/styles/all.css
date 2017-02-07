@@ -21,13 +21,11 @@
 	box-sizing: border-box;
 	font-size: 15px;
 	background-color: white;
-	-webkit-transition: width 0.4s ease-in-out;
-	transition: width 0.4s ease-in-out;
 	display: inline;
 	float: right;
 	margin-top: -4px;
 	position: relative;
-	padding: 0;
+	padding-left: 23px;
 }
 input {
 	height: 30px;
@@ -35,16 +33,15 @@ input {
 	padding-left: 30px;
 
 }
+input.search-input::-webkit-input-placeholder {
+	text-align: center;
+}
 .search-image {
 	position: absolute;
 	bottom: 15px;
 	left: 15px;
 	width: 20px;
 	height:20px;
-	float: left;
-	transition: width 0.10s ease-in-out;
-	-webkit-transition: width 0.10s ease-in-out;
-
 }
 .search-input:focus {
 	 width: 100%;
