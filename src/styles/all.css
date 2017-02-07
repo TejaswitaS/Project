@@ -1,11 +1,17 @@
 .navbar-nav {
 	float: right;
 	margin: 0;
+
 }
 .main-container {
 	height: 100%;
 	width: 70%;
 	text-align: justify;
+}
+.container-fluid {
+	height: 90px;
+	padding-top: 21px;
+	font-size: large;
 }
 .text {
 	margin-top: 3em;
@@ -45,4 +51,27 @@ input.search-input::-webkit-input-placeholder {
 }
 .search-input:focus {
 	 width: 100%;
+}
+.map-box {
+	height: 800px;
+	width: 80%;
+	border-color: solid black;
+}
+.flex-container {
+	display: flex;
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+} 
+.flex-item {
+	background-color: #FFE4E1;
+	height: 400px;
+	width: 250px;
+	margin-top: 20px;
+	justify-content: space-around;
+}
+.footer {
+	background-color: #2f2f2f;
+	height: 60px;
+	width: 100%
 }

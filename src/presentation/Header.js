@@ -13,8 +13,8 @@ export default class Header extends React.Component {
 						<ul className="nav navbar-nav">
 							<li className="active"><a href="#">Home</a></li>
 							<li><a href="#">About Us</a></li>
-							<li><a href="#">Places</a></li>
-							<li><a href="#">Places</a></li>
+							<li><a href="#">Sign In</a></li>
+							<li><a href="#">Sign Up</a></li>
 							<li className="search-container">
 								<input className="search-input" type="text" name="search" placeholder="Search.."></input>
 								<img src='src/assets/search.png' className="search-image"/>
