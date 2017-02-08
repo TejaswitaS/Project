@@ -3,6 +3,9 @@
 	margin: 0;
 
 }
+.navbar-default {
+	background-color: #a9cc58;
+}
 .main-container {
 	height: 100%;
 	width: 70%;
@@ -12,6 +15,15 @@
 	height: 90px;
 	padding-top: 21px;
 	font-size: large;
+	>.hamburger-icon {
+		cursor: pointer;
+		> .icon {
+			width: 19px;
+			height: 2px;
+			background-color: #fff;
+			margin: 2px 0;
+		}
+	}
 }
 .text {
 	margin-top: 3em;
@@ -52,23 +64,26 @@ input.search-input::-webkit-input-placeholder {
 .search-input:focus {
 	 width: 100%;
 }
-.map-box {
-	height: 800px;
-	width: 80%;
-	border-color: solid black;
+.map-view-container {
+	height: 468px;
+	width: 97%;
+	border: 1px solid black;
+	margin: 17px;
 }
 .flex-container {
 	display: flex;
-	width: 500px;
-	height: 500px;
+	width: 100%;
+	height: 400px;
 	background-color: #fff;
+	justify-content: center;
 } 
 .flex-item {
 	background-color: #FFE4E1;
-	height: 400px;
-	width: 250px;
-	margin-top: 20px;
+	height: 360px;
+	width: 267px;
+	margin: 20px;
 	justify-content: space-around;
+	border-color: solid black;
 }
 .footer {
 	background-color: #2f2f2f;

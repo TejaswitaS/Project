@@ -42,7 +42,7 @@ export default class Content extends React.Component {
 				<div className="text">
 					<div className="chalal">
 						<h1><a href="#">CHALAL</a></h1>
-						<p>Just about a 25 minute walk up from Kasol lies Chhalal, which isn't much different from it's lower brother but the walk here is perfect for sparking a big one and drawing fairies on the trees. Practise some yoga here to get your zen on....<Link to="#">Read More</Link></p>
+						<p>Just about a 25 minute walk up from Kasol lies Chhalal, which isn't much different from it's lower brother but the walk here is perfect for sparking a big one and drawing fairies on the trees. Practise some yoga here to get your zen on....<Link to="/PageView">Read More</Link></p>
 					</div>
 					<div className="kasol">
 						<h1><a href="#">KASOL</a></h1>
