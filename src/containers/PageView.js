@@ -8,7 +8,7 @@ export default class PageView extends React.Component {
 		return (
 			<div className="page-view">
 				<PageHeader />
-				<PageContent/>
+				<PageContent query={this.props.location.query} />
 				<Footer />
 			</div>
 		);

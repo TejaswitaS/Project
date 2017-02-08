@@ -42,11 +42,11 @@ export default class Content extends React.Component {
 				<div className="text">
 					<div className="chalal">
 						<h1><a href="#">CHALAL</a></h1>
-						<p>Just about a 25 minute walk up from Kasol lies Chhalal, which isn't much different from it's lower brother but the walk here is perfect for sparking a big one and drawing fairies on the trees. Practise some yoga here to get your zen on....<Link to="/PageView">Read More</Link></p>
+						<p>Just about a 25 minute walk up from Kasol lies Chhalal, which isn't much different from it's lower brother but the walk here is perfect for sparking a big one and drawing fairies on the trees. Practise some yoga here to get your zen on....<Link to={`/pageview?lat=24.813290&lng=67.047799`}>Read More</Link></p>
 					</div>
 					<div className="kasol">
 						<h1><a href="#">KASOL</a></h1>
-						<p>The evergreen haunt of every Indian new to the herb. However much people may say that it's overcrowded and overused, the fact remains that it's got everything a stoner requires a stone's throw(pun intended) away. There's a river, great food, pretty forests and perfect weather....<Link to="#">Read More</Link></p>
+						<p>The evergreen haunt of every Indian new to the herb. However much people may say that it's overcrowded and overused, the fact remains that it's got everything a stoner requires a stone's throw(pun intended) away. There's a river, great food, pretty forests and perfect weather....<Link to={`/pageview?lat=12.937279&lng=77.626919`}>Read More</Link></p>
 					</div>
 					<div className="tosh">
 						<h1><a href="#">TOSH</a></h1>
