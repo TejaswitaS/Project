@@ -3,6 +3,13 @@
 	margin: 0;
 
 }
+.navbar-brand {
+	font-family: Pacifico;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
 .navbar-default {
 	background-color: #a9cc58;
 }
