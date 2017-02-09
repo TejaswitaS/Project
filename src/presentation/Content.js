@@ -42,23 +42,23 @@ export default class Content extends React.Component {
 				<div className="text">
 					<div className="chalal">
 						<h1><a href="#">CHALAL</a></h1>
-						<p>Just about a 25 minute walk up from Kasol lies Chhalal, which isn't much different from it's lower brother but the walk here is perfect for sparking a big one and drawing fairies on the trees. Practise some yoga here to get your zen on....<Link to={`/pageview?lat=24.813290&lng=67.047799`}>Read More</Link></p>
+						<p>Just about a 25 minute walk up from Kasol lies Chhalal, which isn't much different from it's lower brother but the walk here is perfect for sparking a big one and drawing fairies on the trees. Practise some yoga here to get your zen on....<Link to={`/chalal`}>Read More</Link></p>
 					</div>
 					<div className="kasol">
 						<h1><a href="#">KASOL</a></h1>
-						<p>The evergreen haunt of every Indian new to the herb. However much people may say that it's overcrowded and overused, the fact remains that it's got everything a stoner requires a stone's throw(pun intended) away. There's a river, great food, pretty forests and perfect weather....<Link to={`/pageview?lat=12.937279&lng=77.626919`}>Read More</Link></p>
+						<p>The evergreen haunt of every Indian new to the herb. However much people may say that it's overcrowded and overused, the fact remains that it's got everything a stoner requires a stone's throw(pun intended) away. There's a river, great food, pretty forests and perfect weather....<Link to={'/kasol'}>Read More</Link></p>
 					</div>
 					<div className="tosh">
 						<h1><a href="#">TOSH</a></h1>
-						<p>A slow climb through slightly difficult roads will get you to Tosh. Very isolated, greener than imaginable and easy on the pocket. The hotel owners will sort you out with chai, pancakes and the like so you can enjoy your buzz with a full stomach....<Link to="#">Read More</Link></p>
+						<p>A slow climb through slightly difficult roads will get you to Tosh. Very isolated, greener than imaginable and easy on the pocket. The hotel owners will sort you out with chai, pancakes and the like so you can enjoy your buzz with a full stomach....<Link to={'/tosh'}>Read More</Link></p>
 					</div>
-					<div className="sacred-bridge">
-						<h1><a href="#">SACRED BRIDGE</a></h1>
-						<p>The sheer expanse of this green meadow surrounding a mysterious forest is best enjoyed with something just as mind expanding. The weather is sexy and the surroundings are totally empty, so live free....<Link to="#">Read More</Link></p>
+					<div className="malana">
+						<h1><a href="#">MALANA</a></h1>
+						<p>The sheer expanse of this green meadow surrounding a mysterious forest is best enjoyed with something just as mind expanding. The weather is sexy and the surroundings are totally empty, so live free....<Link to={'/malana'}>Read More</Link></p>
 					</div>
-					<div className="root-bridge">
-						<h1><a href="#">ROOT BRIDGE</a></h1>
-						<p>The walk down to these serene natural beauties is almost too much to handle, and definitely warrants a victory hit. Take a dip in the clean pools and let the purity of nature soak into those weary bones....<Link to="#">Read More</Link></p>
+					<div className="goa">
+						<h1><a href="#">GOA</a></h1>
+						<p>The walk down to these serene natural beauties is almost too much to handle, and definitely warrants a victory hit. Take a dip in the clean pools and let the purity of nature soak into those weary bones....<Link to={'/goa'}>Read More</Link></p>
 					</div>
 				</div>
 			</div>
