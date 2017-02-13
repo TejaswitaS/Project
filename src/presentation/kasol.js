@@ -27,17 +27,17 @@ export default class Chalal extends React.Component {
 					<div className="map-view-container" ref="mapContainer"></div>
 					<div className="flex-container">
 						<div className="flex-item">
-							<img src="src/assets/chalalPlace.jpg" style={{height:"300px", width:"267px"}} />
+							<img src="src/assets/images/chalalPlace.jpg" style={{height:"300px", width:"267px"}} />
 							<div className="overlay"></div>
 							<a href ="#">Read More</a>
 						</div>
 						<div className="flex-item">
-							<img src="src/assets/chalalFood.jpg" style={{height:"300px", width:"267px"}} />
+							<img src="src/assets/images/chalalFood.jpg" style={{height:"300px", width:"267px"}} />
 							<div className="overlay"></div>
 							<a href ="#">Read More</a>
 						</div>
 						<div className="flex-item">
-							<img src="src/assets/chalalPlace.jpg" style={{height:"300px", width:"267px"}} />
+							<img src="src/assets/images/chalalPlace.jpg" style={{height:"300px", width:"267px"}} />
 							<div className="overlay"></div>
 							<a href ="#">Read More</a>
 						</div>

@@ -15,19 +15,19 @@ export default class Content extends React.Component {
 					</ul>
 					<div className="carousel-inner" role="listbox">
 						<div className="item active">
-							<img src="src/assets/chalal.jpg" style={{width:"1140px", height:"500px"}}alt="chalal" />
+							<img src="src/assets/images/chalal.jpg" style={{width:"1140px", height:"500px"}}alt="chalal" />
 						</div>
 						<div className="item">
-							<img src="src/assets/kasol.jpg" style={{width:"1140px", height:"500px"}}alt="kasol" />
+							<img src="src/assets/images/kasol.jpg" style={{width:"1140px", height:"500px"}}alt="kasol" />
 						</div>
 						<div className="item">
-							<img src="src/assets/tosh.jpg" style={{width:"1140px", height:"500px"}}alt="tosh" />
+							<img src="src/assets/images/tosh.jpg" style={{width:"1140px", height:"500px"}}alt="tosh" />
 						</div>
 						<div className="item">
-							<img src="src/assets/sacred-forest.jpg" style={{width:"1140px", height:"500px"}}alt="sacred forest" />
+							<img src="src/assets/images/sacred-forest.jpg" style={{width:"1140px", height:"500px"}}alt="sacred forest" />
 						</div>
 						<div className="item">
-							<img src="src/assets/root-bridges.jpg" style={{width:"1140px", height:"500px"}}alt="root bridges" />
+							<img src="src/assets/images/root-bridges.jpg" style={{width:"1140px", height:"500px"}}alt="root bridges" />
 						</div>
 					</div>
 					<a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

@@ -100,7 +100,7 @@ export default class Header extends React.Component {
 							{/*<li className="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true" style={{marginTop:"12px"}}></li>*/}
 							<li className="search-container">
 								<input className="search-input" type="text" name="search" placeholder="Search.."></input>
-								<img src='src/assets/search.png' className="search-image"/>
+								<img src='src/assets/images/search.png' className="search-image"/>
 							</li>
 						</ul>
 					</div>
