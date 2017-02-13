@@ -9,7 +9,6 @@ import Tosh from './presentation/Tosh';
 import Malana from './presentation/Malana.js';
 import Goa from './presentation/Goa';
 
-
 export default () => {
 	return(
 		<Route path="/" component={ App }>

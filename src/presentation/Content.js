@@ -61,6 +61,12 @@ export default class Content extends React.Component {
 						<p>The walk down to these serene natural beauties is almost too much to handle, and definitely warrants a victory hit. Take a dip in the clean pools and let the purity of nature soak into those weary bones....<Link to={'/goa'}>Read More</Link></p>
 					</div>
 				</div>
+				<div
+				  className="fb-like"
+				  data-share="true"
+				  data-width="450"
+				  data-show-faces="true">
+				</div>
 			</div>
 		);
 	}

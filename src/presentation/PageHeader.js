@@ -7,18 +7,18 @@ export default class PageHeader extends React.Component {
 		return (
 			<div className="content-container" style={{width:"100%"}}>
 				<nav className="navbar navbar-default">
-					<div className="left-header h-flex">
-						<div className="v-flex hamburger-icon" style={{backgroundColor:"Solid black"}}>
+					<div className="navbar-brand">
+						<div className="hamburger-icon">
 							<span className="icon"></span>
 							<span className="icon"></span>
 							<span className="icon"></span>
 						</div>
-						<h1 className="navbar-brand" style={{display:"inline"}}>Trippy Hippy</h1>
-						<div className="nav navbar-nav" style={{display:"inline", float:"right"}}>
-							<li className="active"><a href="#">Home</a></li>
-							<li><Link to="#">About Us</Link></li>
-							<li><Link to="#">Sign Out</Link></li>
-						</div>
+						<h3 style={{display:"inline"}}>Trippy Hippy</h3>
+					</div>
+					<div className="nav navbar-nav" style={{display:"inline", float:"right"}}>
+						<li className="active"><a href="#">Home</a></li>
+						<li><Link to="#">About Us</Link></li>
+						<li><Link to="#">Sign Out</Link></li>
 					</div>
 				</nav>
 			</div>
