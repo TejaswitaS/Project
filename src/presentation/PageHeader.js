@@ -1,14 +1,23 @@
 import React from 'react';
 import { NavBar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router';
+import { toggleSideBar } from '../actions/appData';
 
 export default class PageHeader extends React.Component {
+	constructor(props) {
+		super(props);
+		this.toggleSideBar = this.toggleSideBar.bind(this);
+	}
+	toggleSideBar() {
+		this.props.dispatch(toggleSideBar(true));
+	}
+
 	render () {
 		return (
 			<div className="content-container" style={{width:"100%"}}>
 				<nav className="navbar navbar-default">
 					<div className="navbar-brand">
-						<div className="hamburger-icon">
+						<div className="hamburger-icon" onClick={this.toggleSideBar}>
 							<span className="icon"></span>
 							<span className="icon"></span>
 							<span className="icon"></span>
