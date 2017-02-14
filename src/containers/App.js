@@ -25,7 +25,7 @@ class App extends Component {
 						<Sidebar
 							toggleSideBar={this.toggleSideBar}
 							showSideBar={this.props.appData.showSidebar}
-							isLoggedIn={this.props.auth.token}
+							// isLoggedIn={this.props.auth.token}
 						/>
 					}
 				</ReactCSSTransitionGroup>

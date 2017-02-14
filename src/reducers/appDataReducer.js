@@ -17,9 +17,9 @@ export default createReducer(initialState, {
 		});
 	},
 
-	[actions.TOGGLE_LEFT_SIDE_BAR]: (state, payload) => {
+	[actions.TOGGLE_SIDE_BAR]: (state, payload) => {
 		return Object.assign({}, state, {
-			showLeftSidebar: payload
+			showSidebar: payload
 		});
 	}
 })

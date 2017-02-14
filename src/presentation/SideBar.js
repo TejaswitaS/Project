@@ -26,7 +26,7 @@ export default class SideBar extends React.Component {
 					<div>
 						<Link to="/#buy-and-rent" className="h-flex fs sidebar-item">
 						    <SvgIcon glyph={MyFavouritesIcon} width={'21px'} height={'21px'} />
-						    <h4 className="item">Buy & Rent</h4>
+						    <h4 className="item">My Favourites</h4>
 						</Link>
 						<Link to="/#buy-and-rent" className="h-flex fs sidebar-item">
 						    <SvgIcon glyph={SavedSearchesIcon} width={'21px'} height={'21px'} />

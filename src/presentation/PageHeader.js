@@ -2,8 +2,9 @@ import React from 'react';
 import { NavBar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router';
 import { toggleSideBar } from '../actions/appData';
+import { connect } from 'react-redux';
 
-export default class PageHeader extends React.Component {
+class PageHeader extends React.Component {
 	constructor(props) {
 		super(props);
 		this.toggleSideBar = this.toggleSideBar.bind(this);
@@ -34,3 +35,11 @@ export default class PageHeader extends React.Component {
 		);
 	}
 }
+
+function mapStateToProps(state) {
+	return {
+		appData: state.AppData
+	}
+}
+
+export default connect(mapStateToProps)(PageHeader);
