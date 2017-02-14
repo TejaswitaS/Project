@@ -48,7 +48,7 @@ module.exports = {
                 exclude: [/node_modules/, /.+\.config.js/],
                 loader: 'babel',
                 query: {
-                    presets: ['es2015', 'react']
+                    presets: ['es2015', 'react', 'stage-0']
                 }
             }, {
                 test: /\.(jpe?g|gif|png)$/i,

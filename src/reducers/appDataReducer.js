@@ -1,4 +1,4 @@
-import { createReducers } from ',/utils';
+import { createReducer } from './utils';
 import actions from '../actions/actionName';
 
 const initialState = {
