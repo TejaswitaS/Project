@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 import SvgIcon from './SvgIcon';
-import SavedSearchesIcon from '../assets/opera-glasses.svg';
-import MyFavouritesIcon from '../assets/heart-filled.svg';
-import Places from '../assets/garden.svg'
+import SavedSearchesIcon from '../assets/svg/opera-glasses.svg';
+import MyFavouritesIcon from '../assets/svg/heart-filled.svg';
+import Places from '../assets/svg/garden.svg'
 
 export default class SideBar extends React.Component {
 	
