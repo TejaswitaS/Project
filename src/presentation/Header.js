@@ -73,6 +73,10 @@ export default class Header extends React.Component {
 		});
 	}
 
+	onSignInClick(data) {
+		this.props.dispatch(actions.signIn(data));
+	}
+
 	render() {
 		return (
 			<div className="header-container">
@@ -94,6 +98,7 @@ export default class Header extends React.Component {
 								<input className="search-input" type="text" name="search" placeholder="Search.."></input>
 								<img src='src/assets/images/search.png' className="search-image"/>
 							</li>
+							{ this.state.showSignIn && <SignIn onSignInClick={this.onSignInClick} /> }
 						</ul>
 					</div>
 				</nav>

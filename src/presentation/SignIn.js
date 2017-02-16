@@ -2,6 +2,19 @@ import React from 'react';
 import { Modal } from 'react-bootstarp';
 
 export default class SignIn extends React.Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+			username: "",
+			password: ""
+		};
+	}
+
+	signInClicked() {
+		this.props.onSignInClick(this.state);
+	}
+
 	render() {
 		return(
 			<div>
@@ -23,7 +36,7 @@ export default class SignIn extends React.Component {
 	    				</div>
 	    				<div className="action-button">
 		    				<button className="btn btn-secondary cancel"></button>
-		    				<button type="submit" className="btn btn-primary sign-in" tabIndex="3"></button>
+		    				<button className="btn btn-primary sign-in" onClick={this.signInClicked}>SignIn</button>
 	    				</div>
 					</Modal.Footer>
 				</Modal>
