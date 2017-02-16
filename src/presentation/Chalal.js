@@ -1,8 +1,18 @@
 import React from 'react';
 import PageHeader from './PageHeader';
+import LeftBar from './LeftBar';
 import Footer from './Footer';
 
 export default class Chalal extends React.Component {
+	
+	constructor(props) {
+		super(props);
+		this.state = {sideBarOpen: false};
+		this.handleSideBar = this.handleSideBar.bind(this);
+	}
+	/*getInitialState() {
+    return {sidebarOpen: false};
+  	}*/
 	componentDidMount() {
 		let latLng = {
 			lat: 32.011739, 
@@ -19,11 +29,17 @@ export default class Chalal extends React.Component {
 		});
 	}
 
+	handleSideBar() {
+		this.setState(prevState => ({sideBarOpen: !prevState.sideBarOpen}));
+	}
+
 	render () {
 		return (
 			<div className="page-view">
-				<PageHeader />
+				<PageHeader onClick={this.handleSideBar} />
 				<div className="main-content">
+					<LeftBar isOpen={this.state.sideBarOpen} toggleSideBar={this.handleSideBar} />
+
 					<div className="map-view-container" ref="mapContainer"></div>
 					<div className="flex-container">
 						<div className="flex-item">
